@@ -23,6 +23,9 @@ jobs:
           shasha=$(sha256sum _artifacts/SHA256SUMS | awk '{print $1}')
           cat <<-EOF | tee /tmp/release-note.txt
           ${tag}
+
+          The license (GPL-2.0) is included in the \`*.orig.tar.gz\` source archive.
+
           - - -
           The binaries were built automatically on GitHub Actions.
           The build log is available for 90 days: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}

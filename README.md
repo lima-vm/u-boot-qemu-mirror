@@ -2,6 +2,6 @@
 
 See https://github.com/lima-vm/u-boot-qemu-mirror/releases
 
-The [`LICENSE`](./license) file in this repo applies to the mirroring script [`./extract.sh`](./extract.sh).
+The [`LICENSE`](./LICENSE) file in this repo applies to the mirroring script [`./extract.sh`](./extract.sh).
 
 The license of u-boot (GPL-2.0) is included in the `*.orig.tar.gz` source archive.
