@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-22.04
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: "./extract.sh"
       - run: cat _artifacts/SHA256SUMS
       - run: (cd _artifacts; sha256sum SHA256SUMS)
