@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eux -o pipefail
 
-VERSION="2023.04+dfsg-1"
+VERSION="2023.07+dfsg-1"
 CURL="curl -O -fsSL"
 
 mkdir _artifacts
